@@ -11,6 +11,6 @@ describe('Utility Tests', () => {
     expect(resolveResult).toEqual('Resolved');
     expect(rejectError).toEqual('Reject');
     expect(rejectResult).toBe(undefined);
-    logInfo('End Testing')
+    logInfo('End Testing');
   });
 });

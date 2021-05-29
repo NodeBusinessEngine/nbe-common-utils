@@ -46,5 +46,8 @@
   ],
   "publishConfig": {
     "registry": "http://localhost:8081/repository/nbe-repo-hosted/"
+  },
+  "dependencies": {
+    "winston": "^3.3.3"
   }
 }

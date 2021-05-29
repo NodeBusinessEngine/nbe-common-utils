@@ -1,4 +1,4 @@
-import {safePromise} from '../index'
+import { safePromise } from '../index';
 describe('Utility Tests', () => {
   test('Safe Promise Test', async () => {
     const resolvePromise = Promise.resolve('Resolved');
@@ -9,5 +9,5 @@ describe('Utility Tests', () => {
     expect(resolveResult).toEqual('Resolved');
     expect(rejectError).toEqual('Reject');
     expect(rejectResult).toBe(undefined);
-  })
-})
+  });
+});

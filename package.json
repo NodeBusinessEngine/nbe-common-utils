@@ -1,5 +1,5 @@
 {
-  "name": "@nbe/nbe-commono-utils",
+  "name": "@bksdrodrigo/nbe-commono-utils",
   "version": "1.0.2",
   "description": "Node Business Engine Common Utilities",
   "main": "lib/index.js",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NodeBusinessEngine/nbe-commono-utils.git.git"
+    "url": "git+https://github.com/NodeBusinessEngine/nbe-commono-utils.git"
   },
   "keywords": [
     "Typescript",
@@ -44,9 +44,6 @@
   "files": [
     "lib/**/*"
   ],
-  "publishConfig": {
-    "registry": "http://localhost:8081/repository/nbe-repo-hosted/"
-  },
   "dependencies": {
     "winston": "^3.3.3"
   }

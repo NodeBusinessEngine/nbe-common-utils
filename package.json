@@ -1,6 +1,6 @@
 {
   "name": "@bksdrodrigo/nbe-commono-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Node Business Engine Common Utilities",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
